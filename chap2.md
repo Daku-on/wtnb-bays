@@ -15,6 +15,9 @@ math: katex
 
 ---
 <!-- _header:  -->
+$x\in \mathbf{R}$について、$q(x)$を真の分布、$p(x| w)$を確率モデルとする。
+
+定義: $W\subset \mathbf{R}$をパラメタ集合とする。
 
 ---
 <!-- _header:  -->
