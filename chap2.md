@@ -31,3 +31,22 @@ $$\begin{aligned}
 L(w) &:= -\displaystyle \int q(x)\log p(x|w) dx\\
 &= -\int q(x) \log q(x) dx + \int q(x) \log \dfrac{q(x)}{p(x|w)}dx
 \end{aligned}$$
+とする。
+
+このとき、定義より
+$$\begin{aligned}W_{00} = \left\{ w\in W; q(x)\log\dfrac{q(x)}{p(x|w)}dx = 0 \right\}\end{aligned} $$
+
+---
+<!-- _header: スライドタイトル -->
+
+定義 (真の分布に対して最適なパラメータの集合): 
+$\min L(w)$が存在すると仮定するとき、
+$$
+W_0 := \{w\in W; L(w)\text{が最小値を取る}\}
+$$
+を真の分布に対して最適なパラメータの集合と言う。
+
+$\min L(w)$の存在を仮定せず、存在しないとき$W_0 = \emptyset$としてもよい。
+
+---
+<!-- _header: スライドタイトル -->
